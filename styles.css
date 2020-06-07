@@ -84,20 +84,21 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #f2f2f2;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color: #2b2954;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
+
 .location {
   background-color: #222;
   color: #ff9904;
@@ -113,7 +114,21 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #ff9904;
+}
+
+.gallery {
+  margin: 30px;
+  padding: 10px 10px 10px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.gallery:hover {
+  border-color: #ff9904;
 }
 
 ul.skills {
@@ -131,7 +146,11 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #2b2954;
+}
+
+.contact{
+  margin-top: 150px;
 }
 
 footer {
